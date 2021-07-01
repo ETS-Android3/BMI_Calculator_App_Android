@@ -29,8 +29,6 @@ public class MainActivity extends AppCompatActivity {
 
     private static final String sFORMAT_STRING="%2.2f";
 
-    private AppBarConfiguration appBarConfiguration;
-    private ActivityMainBinding binding;
     private BMICalc mBMICalc;               // model
     private EditText mEditTextHeight, mEditTextWeight;
     private Snackbar mSnackBar;
